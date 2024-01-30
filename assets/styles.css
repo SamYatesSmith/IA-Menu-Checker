@@ -1,10 +1,12 @@
+
+
 * {
     margin: 0;
-    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
+    justify-content: center; */
 }
 
 main {
@@ -19,34 +21,48 @@ header {
     background-color: #333;
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 .section-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
+    /* height: 100vh; */
+    grid-template-rows: 100px 100px 100px 100px;
+    place-items: center;
 }
 
-section {
-    box-sizing: border-box;
-    position: relative;
+.grid:before {
+    display: block;
+    padding-top: 100%;
+    /* 1:1 aspect ratio */
 }
 
-.grid {
-    width: 48%;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+[class^="grid-"] {
     position: relative;
+    height: 80%;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+        0 4px 8px rgba(0, 0, 0, 0.1),
+        0 4px 8px rgba(0, 0, 0, 0.1),
+        0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
     font-size: 1.5em;
+    margin: 0;
 }
 
 .further-info {
     display: none;
     position: absolute;
-    top: 100%;
+    /* top: 100%; */
     left: 0;
     width: 100%;
     padding: 10px;
@@ -58,4 +74,21 @@ h2 {
 
 section:hover .further-info {
     display: block;
+}
+
+@media (min-width: 768px) {
+    .section-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    section:before {
+        padding-top: 50%;
+        /* Adjust the aspect ratio for larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
