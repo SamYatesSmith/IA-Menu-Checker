@@ -47,15 +47,114 @@
 
       <div>
         <div class="topHeader">
-            <h1>The Checker</h1>
-            <h3>Simply put...</h3>
-            <p>check the below options based on your preferences to return our menu items that are safe for you to consume</p>
-        </div> 
+          <h1>The Checker</h1>
+          <h3>Simply put...</h3>
+          <p>
+            check the below options based on your preferences to return our menu
+            items that are safe for you to consume
+          </p>
+        </div>
+
         <section class="AllergenChecker">
-            <form class="userPrefs">
-                
-            </form>
+          <form id="userPrefs">
+            <label
+              ><input
+                type="radio"
+                name="diet"
+                value="omnivore"
+              />Onminovre</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="diet"
+                value="Vegetarian"
+              />Vegetarian</label
+            >
+            <label><input type="radio" name="diet" value="vegan" />Vegan</label>
+
+            <br />
+
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="peanuts"
+              />Peanuts</label
+            >
+            <label
+              ><input type="radio" name="intolerance" value="treeNuts" />Tree
+              Nuts</label
+            >
+            <label
+              ><input type="radio" name="intolerance" value="pineNuts" />Pine
+              Nuts</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="sesame"
+              />Sesame</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="gluten"
+              />Gluten</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="crustacean"
+              />Crustacean</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="celery"
+              />Celery</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="celeriac"
+              />Celeriac</label
+            >
+            <label
+              ><input type="radio" name="intolerance" value="egg" />Egg</label
+            >
+            <label
+              ><input type="radio" name="intolerance" value="fish" />Fish</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="dairy"
+              />Dairy</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="intolerance"
+                value="mustard"
+              />Mustard</label
+            >
+
+            <br />
+
+            <button type="button" onclick="checkChecker()">
+              Inititiate Magical Menu Disection Device...
+            </button>
+          </form>
         </section>
+
+        <script src="assets/script.js"></script>
         <!-- SCRIPT.JS > Customer questions section to ascertain I&A -->
       </div>
 
