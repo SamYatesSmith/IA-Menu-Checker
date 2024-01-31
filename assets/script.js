@@ -1,4 +1,7 @@
-
+function checkChecker() {
+    const userDiet = document.querySelector('input[name="diet"]:checked').value;
+    const userIntolernce = array.from(document.querySelectorAll('input[name="intolerance]:checked')).map(checkbox => checkbox.value);
+}
 const menu = [
     {
         name: "Artichoke, Tapenade & Olive Sandwich",
