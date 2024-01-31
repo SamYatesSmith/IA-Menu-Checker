@@ -219,5 +219,9 @@ const menu = [
         vegetarianFriendly: false,
         veganFriendly: false
     },
-
 ];
+
+menu.forEach(item => {
+    const isVegetarianFriendly = userDiet === "vegetarian" ? item.vegetarianFriendly : true;
+    const isVeganFriendly = userDiet === "vegan" ? item.veganFriendly : true;
+});
