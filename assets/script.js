@@ -11,6 +11,11 @@
     if (validity) {
         userDiet = userDiet.value;
     
+            if (userDiet === "omnivore" && userIntolerance.length === 0) {
+                displayError("Did you mean to check all three dietary preference boxes? There is no such uncertainty as a sure thing - Robert Burns");
+                return;
+            }
+
         const menu = [
             {
                 name: "Artichoke, Tapenade & Olive Sandwich",
@@ -231,7 +236,7 @@
         ];
 
         const suitableItems = menu.filter(item => {
-            const isVegetarianFriendly = userDiet === "vegetarian" ? item.vegetarianFriendly : true;
+            const isVegetarianFriendly = userDiet === "Vegetarian" ? item.vegetarianFriendly : true;
             const isVeganFriendly = userDiet === "vegan" ? item.veganFriendly : true;
             const containsIntolerance = item.ingredients.some(ingredients => userIntolerance.includes(ingredients));
 
