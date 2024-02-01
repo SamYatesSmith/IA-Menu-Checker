@@ -224,4 +224,12 @@ const menu = [
 menu.forEach(item => {
     const isVegetarianFriendly = userDiet === "vegetarian" ? item.vegetarianFriendly : true;
     const isVeganFriendly = userDiet === "vegan" ? item.veganFriendly : true;
+    const containsIntolerance = item.ingredients.some(ingredients => userIntolernce.includes(ingredients));
+
+    if (containsIntolerance || !isVegetarianFriendly ||
+        !isVeganFriendly) {
+        console.log(`Avoid ${item.name} - Not suitable for your dietary prefernces.`);
+    } else {
+        console.log(`${item.name} is suitable for your dietary preferences.`);
+    }
 });
