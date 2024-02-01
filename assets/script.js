@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
+
 
     let userDiet;
 
     function checkChecker() {
     userDiet = document.querySelector('input[name="diet"]:checked');
-    const userIntolernce = Array.from(document.querySelectorAll('input[name="intolerance]:checked')).map(checkbox => checkbox.value);
+    const userIntolerance = Array.from(document.querySelectorAll('input[name="intolerance"]:checked')).map(checkbox => checkbox.value);
 
         if (userDiet) {
             userDiet = userDiet.value;
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const suitableItems = menu.filter(item => {
             const isVegetarianFriendly = userDiet === "vegetarian" ? item.vegetarianFriendly : true;
             const isVeganFriendly = userDiet === "vegan" ? item.veganFriendly : true;
-            const containsIntolerance = item.ingredients.some(ingredients => userIntolernce.includes(ingredients));
+            const containsIntolerance = item.ingredients.some(ingredients => userIntolerance.includes(ingredients));
 
             return !containsIntolerance && isVeganFriendly && isVegetarianFriendly;
         });
@@ -242,20 +242,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 }
 
-function displayResults(items) {
-        const userResults = document.getElementById("result");
-        if (userResults) {
-        
-        if (items.length > 0) {
-            userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
-                items.map(item => `<li>${item.name}</li>`).join("") +
-                "</ul>";
+    function displayResults(items) {
+            const userResults = document.getElementById("result");
+            if (userResults) {
+            
+            if (items.length > 0) {
+                userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
+                    items.map(item => `<li>${item.name}</li>`).join("") +
+                    "</ul>";
+            } else {
+                userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
+            } 
         } else {
-            userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
-        } 
-    } else {
-            console.error("userResult div not found")
+                console.error("userResult div not found")
+            }
         }
-    }
-});
+        
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('button').addEventListener('click', checkChecker);
 
+        document.addEventListener('keydown', function(event) {
+            if (event.key ==='Enter') {
+                checkChecker();
+            }
+        });
+});
