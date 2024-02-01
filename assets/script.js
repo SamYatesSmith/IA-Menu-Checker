@@ -5,10 +5,12 @@
     function checkChecker() {
     userDiet = document.querySelector('input[name="diet"]:checked');
     const userIntolerance = Array.from(document.querySelectorAll('input[name="intolerance"]:checked')).map(checkbox => checkbox.value);
+    
+    const validity = validatePreferences(userDiet,userIntolerance);
 
-        if (userDiet) {
-            userDiet = userDiet.value;
-
+    if (validity) {
+        userDiet = userDiet.value;
+    
         const menu = [
             {
                 name: "Artichoke, Tapenade & Olive Sandwich",
@@ -238,7 +240,7 @@
 
         displayResults(suitableItems);
     } else {
-        console.error("Please select a dietary preference")
+        displayError("Please check some boxes for your dietary preferences.");
     }
 }
 
@@ -254,9 +256,22 @@
                 userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
             } 
         } else {
-                console.error("userResult div not found")
+                console.error("Result div not found")
             }
         }
+    
+    function displayError(message) {
+        const userResults = document.getElementById("result");
+        if (userResults) {
+            userResults.innerHTML = `<p>${message}</p>`;
+        } else {
+            console.error(message);
+        }
+    }
+
+    function validatePreferences(userDiet, userIntolerance) {
+        return userDiet || userIntolerance.length > 0;
+    }
         
     document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('button').addEventListener('click', checkChecker);
