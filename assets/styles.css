@@ -23,7 +23,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 1);
+    border-bottom: solid 1px black;
+    /* background-color: rgba(255, 255, 255, 1); */
 }
 
 #header-container img {
@@ -47,6 +48,7 @@ body {
 }
 
 [class^="grid-"] {
+    color: whitesmoke;
     margin-top: 20px;
     background-image: url(/assets/images/infobox_image2.jpg);
     background-size: cover;
@@ -56,10 +58,17 @@ body {
     width: 90%;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px #9bb395;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header h1, header p {
     margin: 0;
+}
+
+h1 {
+    float: left;
 }
 
 h2 {
