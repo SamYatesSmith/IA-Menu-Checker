@@ -12,19 +12,58 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-
-/* main {
-    background-color: #9A9191;
-} */
 
 #header-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
     border-bottom: solid 1px black;
-    /* background-color: rgba(255, 255, 255, 1); */
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 15px; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    border: solid 0.5px transparent;
+    padding: 4px;
+}
+
+nav li {
+    padding: 0 14px;
+}
+
+nav a:hover {
+    border: solid 0.5px black;
+    border-radius: 8px;
+    background-color: #f0f0f0;
 }
 
 #header-container img {
@@ -32,10 +71,8 @@ body {
 }
 
 .section-container {
-    
     display: grid;
     gap: 10px;
-    /* height: 100vh; */
     grid-template-rows: 100px 100px 100px 100px;
     place-items: center;
     font-weight: 200;
@@ -44,20 +81,20 @@ body {
 .grid:before {
     display: block;
     padding-top: 100%;
-    /* 1:1 aspect ratio */
 }
 
 [class^="grid-"] {
     color: whitesmoke;
     margin-top: 20px;
-    background-image: url(/assets/images/infobox_image2.jpg);
+    background-image: url(/assets/images/infobox_images5.jpg);
+    opacity: 0.8;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 80%;
     width: 90%;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 1px #9bb395;
+    box-shadow: 2px 2px 2px 1px gray;
     display: flex;
     align-items: center;
     justify-content: center;
