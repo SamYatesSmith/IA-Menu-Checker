@@ -6,6 +6,11 @@
     userDiet = document.querySelector('input[name="diet"]:checked');
     const userIntolerance = Array.from(document.querySelectorAll('input[name="intolerance"]:checked')).map(checkbox => checkbox.value);
     
+    if(userIntolerance.includes("gluten")) {
+        displayError("Our apologies. As this is a sandwich and baguette menu, everything contains either wheat or barley, so there are no options available if you are intolerant to gluten. Further menu options to follow soon, we promise ;)")
+        return;
+    }
+
     const validity = validatePreferences(userDiet,userIntolerance);
 
     if (validity) {
@@ -179,21 +184,21 @@
             },
 
             {
-                name: "Kids' Cheese Triangles Baugette",
+                name: "Kids' Cheese Triangles",
                 ingredients: ["gluten", "cow"],
                 vegetarianFriendly: true,
                 veganFriendly: false
             },
 
             {
-                name: "Kids' Chicken & Cucumber Triangles Baugette",
+                name: "Kids' Chicken & Cucumber Triangles",
                 ingredients: ["gluten", "egg"],
                 vegetarianFriendly: true,
                 veganFriendly: true
             },
 
             {
-                name: "Kids' Ham Triangles Baugette",
+                name: "Kids' Ham Triangles",
                 ingredients: ["gluten", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false
