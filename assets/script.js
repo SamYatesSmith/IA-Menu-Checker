@@ -241,7 +241,7 @@
         ];
 
         const suitableItems = menu.filter(item => {
-            const isVegetarianFriendly = userDiet === "Vegetarian" ? item.vegetarianFriendly : true;
+            const isVegetarianFriendly = userDiet === "vegetarian" ? item.vegetarianFriendly : true;
             const isVeganFriendly = userDiet === "vegan" ? item.veganFriendly : true;
             const containsIntolerance = item.ingredients.some(ingredients => userIntolerance.includes(ingredients));
 
