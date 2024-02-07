@@ -21,6 +21,15 @@ body {
 
 /* Header Styling */
 
+#edible_logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+#header-container img {
+    max-height: 80px;
+}
+
 #header-container {
     width: 100%;
     height: 30%;
@@ -44,6 +53,13 @@ body {
     color: #ACA7CB;
 }
 
+#header-container span {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FF00F4;
+}
+
 .header-bottom { 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -65,6 +81,7 @@ nav a {
 }
 
 nav li {
+    font-weight: 300;
     padding: 0 20px;
     font-size: 18px;
     color: #474554;
@@ -78,10 +95,6 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-#header-container img {
-    max-height: 60px;
 }
 
 /* Main */
@@ -177,24 +190,83 @@ nav a:hover {
     line-height: 2em;
 }
 
-.topHeader {
-    padding: 30px 20px;
+.checkerHeader {
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    align-items: baseline;
+    border-top: solid 1px #FF00F4;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.title-container h1 {
+    font-family: 'Kanit', sans-serif;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.title-container h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FF00F4;
 }
 
 /* Checker Styling */
 
+#dietPref {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#userPrefs {
+    box-shadow: 2px 2px 2px 1px #FF00F4;
+    border-radius: 8px;
+    padding: 20px;
+    background-image: url(/assets/images/background-image3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.checkbox {
+    margin: 15px;
+}
+
+.checkbox-flip {
+    display: none;
+}
+
 .checkbox-flip + label span {
     display: inline-block;
-    width: 25px;
-    height: 19px;
-    transition: all .3s ease-in-out;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin: 0 4px -3px 0;
+    border-radius: 15px;
+}
+
+.checkbox-flip + label span:before,
+.checkbox-flip + label span:after {
     content: "";
     position: absolute;
-    z-index: 1;
-    width: 1rem;
-    height: 1rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: transparent;
-    border: 2px solid #FF00F4;
+    border: 2px solid #474554;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
 }
 
 .checkbox-flip:checked + label span:before {

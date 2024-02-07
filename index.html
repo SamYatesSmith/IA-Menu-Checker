@@ -9,19 +9,22 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">     
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
-    <title>IA Menu Checker</title>
+    <title>The Checker by Edible</title>
   </head>
 
   <body>
     <header>
       <div id="header-container">
         <div class="header-top"></div>
-        <img src="" >
-        <h1>IA Menu Checker</h1>
+        <img src="/assets/images/Edible_padded_logo.png" class="edible_logo">
+        <h1>The Checker by <span>Edible</span></h1>
         <p>Check the menu to see what you can, or can't eat</p>
         <div class="header-bottom">
             <nav>
@@ -90,8 +93,11 @@
 </div>
 
     <div id="checkerContainer">
-        <div class="topHeader">
+        <div class="checkerHeader">
+        <span class="title-container">
           <h1>The Checker</h1>
+          <h3>by Edible</h3>
+        </span>
           <h3>Simply put...</h3>
           <p>
             Check the below options based on your preferences to return our menu
@@ -100,8 +106,10 @@
         </div>
 
         <section class="AllergenChecker">
-          <form id="userPrefs">
-            
+          
+        <form id="userPrefs">
+        <div id="dietPref">
+            <h1>Dietary Preferences; please check which is relevant to you?<h1>
             <input
             id="omnivoreCheckbox"
             class="checkbox-flip"
@@ -125,7 +133,7 @@
             name="diet" 
             value="vegan">
             <label for="veganCheckbox"><span></span></label>Vegan</label>
-
+        </div>
             <br>
 
             <input
