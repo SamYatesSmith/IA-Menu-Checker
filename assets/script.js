@@ -193,8 +193,8 @@
             {
                 name: "Kids' Chicken & Cucumber Triangles",
                 ingredients: ["gluten", "egg"],
-                vegetarianFriendly: true,
-                veganFriendly: true
+                vegetarianFriendly: false,
+                veganFriendly: false
             },
 
             {
