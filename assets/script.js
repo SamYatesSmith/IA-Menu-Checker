@@ -27,7 +27,7 @@
                 ingredients: ["sesame", "gluten"],
                 vegetarianFriendly: true,
                 veganFriendly: true,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-ArtichokeTapanardeOlive.png"
+                image: "/assets/images/Baguette-ArtichokeTapanardeOlive.png"
             },
 
             {
@@ -35,7 +35,7 @@
                 ingredients: ["sesame", "gluten", "pineNuts"],
                 vegetarianFriendly: true,
                 veganFriendly: true,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-AvoOlive_Toms.png"
+                image: "/assets/images/Baguette-AvoOlive_Toms.png"
             },
 
             {
@@ -43,7 +43,7 @@
                 ingredients: ["gluten", "dairy"],
                 vegetarianFriendly: true,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-BrieTomato_Basil.png"
+                image: "/assets/images/Baguette-BrieTomato_Basil.png"
             },
 
             {
@@ -51,7 +51,7 @@
                 ingredients: ["sesame", "gluten", "egg", "fish", "dairy"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Chicken-and-Bacon.jpg"
+                image: "/assets/images/Sandwich-Chicken-and-Bacon.jpg"
             },
 
             {
@@ -59,7 +59,7 @@
                 ingredients: ["gluten", "egg", "dairy"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baugette-ChickenSalad.png"
+                image: "/assets/images/Baugette-ChickenSalad.png"
             },
 
             {
@@ -67,7 +67,7 @@
                 ingredients: ["sesame", "gluten", "egg", "fish"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baugette-FreeRange_eggmayo_Salmon.png"
+                image: "/assets/images/Baugette-FreeRange_eggmayo_Salmon.png"
             },
 
             {
@@ -75,7 +75,7 @@
                 ingredients: ["sesame", "gluten", "egg", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-Italian_Proscuitto.png"
+                image: "/assets/images/Baguette-Italian_Proscuitto.png"
             },
 
             {
@@ -83,7 +83,7 @@
                 ingredients: ["sesame", "gluten"],
                 vegetarianFriendly: true,
                 veganFriendly: true,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Wrap-MexicanStyle_FalafalAvo.png"
+                image: "/assets/images/Wrap-MexicanStyle_FalafalAvo.png"
             },
 
             {
@@ -91,7 +91,7 @@
                 ingredients: ["sesame", "gluten", "egg", "cow", "mustard"],
                 vegetarianFriendly: true,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-PoshChedder_Pickle.png"
+                image: "/assets/images/Baguette-PoshChedder_Pickle.png"
             },
 
             {
@@ -99,7 +99,7 @@
                 ingredients: ["gluten", "egg", "fish",],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-FreeRangeEggMayoCress.png"
+                image: "/assets/images/Sandwich-FreeRangeEggMayoCress.png"
             },
 
             {
@@ -107,7 +107,7 @@
                 ingredients: ["gluten", "egg", "fish", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-SpicyTuna_Cucumber.jpg"
+                image: "/assets/images/Sandwich-SpicyTuna_Cucumber.jpg"
             },
 
             {
@@ -115,7 +115,7 @@
                 ingredients: ["sesame", "gluten", "soya"],
                 vegetarianFriendly: true,
                 veganFriendly: true,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette_StickyMushroomBahnMi.png"
+                image: "/assets/images/Baguette_StickyMushroomBahnMi.png"
             },
 
             {
@@ -123,7 +123,7 @@
                 ingredients: ["gluten", "egg", "fish"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Tuna-_-Cucumber.jpg"
+                image: "/assets/images/Sandwich-Tuna-_-Cucumber.jpg"
             },
 
             {
@@ -131,7 +131,7 @@
                 ingredients: ["sesame", "gluten", "egg", "fish", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-Pole_LineCaughtTuna.png"
+                image: "/assets/images/Baguette-Pole_LineCaughtTuna.png"
             },
 
             {
@@ -139,7 +139,7 @@
                 ingredients: ["gluten", "egg", "cow", "mustard"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baguette-WiltshireCuredHam_Greve.png"
+                image: "/assets/images/Baguette-WiltshireCuredHam_Greve.png"
             },
 
             {
@@ -147,7 +147,7 @@
                 ingredients: ["gluten", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Granary_BLT.png"
+                image: "/assets/images/Sandwich-Granary_BLT.png"
             },
 
             {
@@ -155,7 +155,7 @@
                 ingredients: ["gluten", "egg", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Granary-ChickenAvocado.png"
+                image: "/assets/images/Sandwich-Granary-ChickenAvocado.png"
             },
 
             {
@@ -163,7 +163,7 @@
                 ingredients: ["gluten", "egg", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baugette-ChickenSalad.png"
+                image: "/assets/images/Baugette-ChickenSalad.png"
             },
 
             {
@@ -171,7 +171,7 @@
                 ingredients: ["gluten", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-ClassicSuperClub.png"
+                image: "/assets/images/Sandwich-ClassicSuperClub.png"
             },
 
             {
@@ -179,7 +179,7 @@
                 ingredients: ["gluten", "crustacean", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-CrayfishRocket.png"
+                image: "/assets/images/Sandwich-CrayfishRocket.png"
             },
 
             {
@@ -187,7 +187,7 @@
                 ingredients: ["gluten", "egg", "mustard"],
                 vegetarianFriendly: true,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-FreeRangeEggMayoCress.png"
+                image: "/assets/images/Sandwich-FreeRangeEggMayoCress.png"
             },
 
             {
@@ -195,7 +195,7 @@
                 ingredients: ["gluten", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baugette-Famous-Ham-and-Cheese.jpg"
+                image: "/assets/images/Baugette-Famous-Ham-and-Cheese.jpg"
             },
 
             {
@@ -203,7 +203,7 @@
                 ingredients: ["sesame", "gluten"],
                 vegetarianFriendly: true,
                 veganFriendly: true,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-HummousVeg.png"
+                image: "/assets/images/Sandwich-HummousVeg.png"
             },
 
             {
@@ -211,7 +211,7 @@
                 ingredients: ["gluten", "cow"],
                 vegetarianFriendly: true,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Kids_CheeseTriangles.png"
+                image: "/assets/images/Sandwich-Kids_CheeseTriangles.png"
             },
 
             {
@@ -219,7 +219,7 @@
                 ingredients: ["gluten", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: ""
+                image: "/assets/images/Sandwich-ChickenCucumberTriangles.png"
             },
 
             {
@@ -227,7 +227,7 @@
                 ingredients: ["gluten", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Kids_HamTriangles.png"
+                image: "/assets/images/Sandwich-Kids_HamTriangles.png"
             },
 
             {
@@ -235,7 +235,7 @@
                 ingredients: ["gluten", "egg", "cow"],
                 vegetarianFriendly: true,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Granary-MatureChedder_Pickle.png"
+                image: "/assets/images/Sandwich-Granary-MatureChedder_Pickle.png"
             },
 
             {
@@ -243,7 +243,7 @@
                 ingredients: ["gluten", "fish", "cow", "egg", "mustard"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Roll-ScandiSalmonColdRoll.png"
+                image: "#/assets/images/Roll-ScandiSalmonColdRoll.png"
             },
 
             {
@@ -251,7 +251,7 @@
                 ingredients: ["gluten"],
                 vegetarianFriendly: true,
                 veganFriendly: true,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Baugette-Super_greens&reds.png"
+                image: "/assets/images/Baugette-Super_greens&reds.png"
             },
 
             {
@@ -259,7 +259,7 @@
                 ingredients: ["gluten"],
                 vegetarianFriendly: false,
                 veganFriendly: false,
-                image: "/workspaces/IA-Menu-Checker/assets/images/Sandwich-Granary-TheVLT.png"
+                image: "/assets/images/Sandwich-Granary-TheVLT.png"
             },
         ];
 
@@ -277,21 +277,43 @@
     }
 }
 
-    function displayResults(items) {
-            const userResults = document.getElementById("result");
-            if (userResults) {
-            
-                if (items.length > 0) {
-                    userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
-                        items.map(item => `<li><img src="${item.image}" alt="${item.name}">${item.name}</li>`).join("") +
-                        "</ul>";
-                } else {
-                userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
-            } 
+    function displayResults(menu) {
+        const resultsContainer = document.querySelector("#resultsContainer");
+        resultsContainer.innerHTML="";
+
+        if (menu.length > 0) {
+            menu.forEach(item => {
+                const listItem = document.createElement("li");
+                const itemImage = document.createElement("img");
+                itemImage.src = item.image;
+                itemImage.alt = item.name;
+                const itemName = document.createElement("span");
+                itemName.textContent = item.name;
+
+                listItem.appendChild(itemImage);
+                listItem.appendChild(itemName);
+
+                resultsContainer.appendChild(listItem)
+            });
         } else {
-                console.error("Result div not found")
-            }
+            resultsContainer.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>"
         }
+    }
+
+        //     const userResults = document.getElementById("result");
+        //     if (userResults) {
+            
+        //         if (items.length > 0) {
+        //             userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
+        //                 items.map(item => `<li><img src="${item.image}" alt="${item.name}">${item.name}</li>`).join("") +
+        //                 "</ul>";
+        //         } else {
+        //         userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
+        //     } 
+        // } else {
+        //         console.error("Result div not found")
+        //     }
+        // }
     
     function displayError(message) {
         const userResults = document.getElementById("result");
@@ -314,4 +336,4 @@
                 checkChecker();
             }
         });
-});
+})
