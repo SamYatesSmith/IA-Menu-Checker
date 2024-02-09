@@ -229,7 +229,8 @@
                 name: "The VLT Sandwich",
                 ingredients: ["gluten"],
                 vegetarianFriendly: false,
-                veganFriendly: false
+                veganFriendly: false,
+                image: "Sandwich-Granary-TheVLT.png"
             },
         ];
 
@@ -251,11 +252,11 @@
             const userResults = document.getElementById("result");
             if (userResults) {
             
-            if (items.length > 0) {
-                userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
-                    items.map(item => `<li>${item.name}</li>`).join("") +
-                    "</ul>";
-            } else {
+                if (items.length > 0) {
+                    userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
+                        items.map(item => `<li><img src="${item.image}" alt="${item.name}">${item.name}</li>`).join("") +
+                        "</ul>";
+                } else {
                 userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
             } 
         } else {
