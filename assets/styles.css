@@ -221,21 +221,64 @@ nav a:hover {
 
 /* Checker Styling */
 
-#dietPref {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+#dietPrefContianer {
     padding: 10px;
 }
 
-#userPrefs {
+#checkerContainer {
     box-shadow: 2px 2px 2px 1px #FF00F4;
     border-radius: 8px;
-    padding: 20px;
+    padding: 30px;
     background-image: url(/assets/images/background-image3.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 12.5px;
+}
+
+#dietPrefContianer h1 {
+    padding: 12.5px;
+    font-size: 19px;
+    color: #E9E9E9;
+    background-color: #474554;
+    border-radius: 8px;
+}
+
+.dietPref {
+    display: inline-block;
+    width: 100%;
+    padding: 12.5px;
+}
+
+.dietPref label {
+    padding-right: 12.5px;
+}
+
+#foodAllergyContainer {
+    padding: 10px;
+}
+
+#foodAllergies {
+    display: flex;
+}
+
+.checkbox-column {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+#foodAllergyContainer h1 {
+    padding: 12.5px;
+    font-size: 19px;
+    color: #E9E9E9;
+    background-color: #474554;
+    border-radius: 8px;
+}
+
+#foodAllergies label {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12.5px;
 }
 
 .checkbox {

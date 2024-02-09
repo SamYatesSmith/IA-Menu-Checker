@@ -27,14 +27,14 @@
         <h1>The Checker by <span>Edible</span></h1>
         <p>Check the menu to see what you can, or can't eat</p>
         <div class="header-bottom">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Information</a></li>
-                    <li><a href="#">Checker</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+           <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Information</a></li>
+              <li><a href="#">Checker</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -92,168 +92,196 @@
     </div>
 </div>
 
-    <div id="checkerContainer">
-        <div class="checkerHeader">
-        <span class="title-container">
-          <h1>The Checker</h1>
-          <h3>by Edible</h3>
-        </span>
-          <h3>Simply put...</h3>
+    <div class="checkerHeader">
+      <span class="title-container">
+        <h1>The Checker</h1>
+        <h3>by Edible</h3>
+      </span>
+        <h3>Simply put...</h3>
           <p>
             Check the below options based on your preferences to return our menu
             items that are safe for you to consume
           </p>
-        </div>
+    </div>
 
-        <section class="AllergenChecker">
+    <div id="checkerContainer">
+        <section>
           
-        <form id="userPrefs">
-        <div id="dietPref">
-            <h1>Dietary Preferences; please check which is relevant to you?<h1>
-            <input
-            id="omnivoreCheckbox"
-            class="checkbox-flip"
-            type="checkbox"
-            name="diet"
-            value="omnivore">
-            <label for="omnivoreCheckbox"><span></span>Omnivore</label>
+        <form>
 
-            <input
-            id="vegetarianCheckbox"
-            class="checkbox-flip"
-            type="checkbox"
-            name="diet"
-            value="vegetarian">
-            <label for="vegetarianCheckbox"><span></span>Vegetarian</label>
-            
-            <input 
-            id="veganCheckbox"
-            class="checkbox-flip"
-            type="checkbox" 
-            name="diet" 
-            value="vegan">
-            <label for="veganCheckbox"><span></span></label>Vegan</label>
+        <div id="dietPrefContianer">
+        <h1>Dietary Preferences; please check which is relevant to you?</h1>
+
+        <br>
+
+            <div class="dietPref">
+
+                <input
+                id="omnivoreCheckbox"
+                class="checkbox-flip"
+                type="checkbox"
+                name="diet"
+                value="omnivore">
+                <label for="omnivoreCheckbox"><span></span>Omnivore</label>
+
+                <input
+                id="vegetarianCheckbox"
+                class="checkbox-flip"
+                type="checkbox"
+                name="diet"
+                value="vegetarian">
+                <label for="vegetarianCheckbox"><span></span>Vegetarian</label>
+                
+                <input 
+                id="veganCheckbox"
+                class="checkbox-flip"
+                type="checkbox" 
+                name="diet" 
+                value="vegan">
+                <label for="veganCheckbox"><span></span></label>Vegan</label>
+            </div>
         </div>
-            <br>
 
-            <input
-            id="peanutsCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="peanuts">
-            <label for="peanutsCheckbox"><span></span>Peanuts</label>
+        <div id="foodAllergyContainer">
+            <h1>Now just check the food ingredients that you'd like to avoid</h1>
+        
+        <br>    
 
-            <input
-            id="treeNutsCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="treeNuts">
-            <label for="treeNutsCheckbox"><span></span>Tree Nuts</label>
+        <div id="foodAllergies">
+            <div class="checkbox-column">
+                <input
+                id="peanutsCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="peanuts">
+                <label for="peanutsCheckbox"><span></span>Peanuts</label>
 
-            <input
-            id="pineNutsCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="pineNuts">
-            <label for="pineNutsCheckbox"><span></span>Pine Nuts</label>
+                <input
+                id="treeNutsCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="treeNuts">
+                <label for="treeNutsCheckbox"><span></span>Tree Nuts</label>
 
-            <input
-            id="sesameCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="sesame">
-            <label for="sesameCheckbox"><span></span>Sesame</label>
+                <input
+                id="pineNutsCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="pineNuts">
+                <label for="pineNutsCheckbox"><span></span>Pine Nuts</label>
 
-            <input
-            id="glutenCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="gluten">
-            <label for="glutenCheckbox"><span></span>Gluten</label>
-     
-            <input
-            id="crustaceanCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="crustacean">
-            <label for="crustaceanCheckbox"><span></span>Crustacean</label>
+                <input
+                id="sesameCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="sesame">
+                <label for="sesameCheckbox"><span></span>Sesame</label>
 
-            <input
-            id="celeryCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="celery">
-            <label for="celeryCheckbox"><span></span>Celery</label>
+                <input
+                id="glutenCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="gluten">
+                <label for="glutenCheckbox"><span></span>Gluten</label>
+        
+                <input
+                id="crustaceanCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="crustacean">
+                <label for="crustaceanCheckbox"><span></span>Crustacean</label>
 
-            <input
-            id="celeriacCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="celeriac">
-            <label for="celeriacCheckbox"><span></span>Celeriac</label>           
+                <input
+                id="celeryCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="celery">
+                <label for="celeryCheckbox"><span></span>Celery</label>
+            </div>
 
-            <input
-            id="eggCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="egg">
-            <label for="eggCheckbox"><span></span>Egg</label>          
-     
-            <input
-            id="fishCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="fish">
-            <label for="fishCheckbox"><span></span>Fish</label>    
-  
-            <input
-            id="soyaCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="soya">
-            <label for="soyaCheckbox"><span></span>Soya</label>
+            <div class="checkbox-column">
+                <input
+                id="celeriacCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="celeriac">
+                <label for="celeriacCheckbox"><span></span>Celeriac</label>           
 
-            <input
-            id="dairyCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="dairy">
-            <label for="dairyCheckbox"><span></span>Dairy</label>
+                <input
+                id="eggCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="egg">
+                <label for="eggCheckbox"><span></span>Egg</label>          
+        
+                <input
+                id="fishCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="fish">
+                <label for="fishCheckbox"><span></span>Fish</label>    
+    
+                <input
+                id="soyaCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="soya">
+                <label for="soyaCheckbox"><span></span>Soya</label>
 
-            <input
-            id="mustardCheckbox" 
-            class="checkbox-flip"
-            type="checkbox"
-            name="intolerance"
-            value="mustard">
-            <label for="mustardCheckbox"><span></span>Mustard</label>
+                <input
+                id="dairyCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="dairy">
+                <label for="dairyCheckbox"><span></span>Dairy</label>
 
-            <br>
+                <input
+                id="mustardCheckbox" 
+                class="checkbox-flip"
+                type="checkbox"
+                name="intolerance"
+                value="mustard">
+                <label for="mustardCheckbox"><span></span>Mustard</label>
+                </div>
+        </div>
+        </div>
+        <br>
+
+        <div id="results-buttons">
 
             <button type="button" onclick="checkChecker()">
-              Inititiate Magical Menu Disection Device...
+                Inititiate Magical Menu Disection Device...
             </button>
-          </form>
+
+            <button type="button" onclick="clearForm">
+                Clear Responses
+            </button>
+
+        </div>
+
+        </form>
         </section>
 
-      </div>
+      
 
       <div id="result">
         <!-- Results section pointing at which menu items customer can eat -->
       </div>
 
+    </div>
+    
     </main>
 
     <footer>
