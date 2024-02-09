@@ -23,14 +23,14 @@
 
         const menu = [
             {
-                name: "Artichoke, Tapenade & Olive Sandwich",
+                name: "Artichoke, Tapenade & Olive Baugette",
                 ingredients: ["sesame", "gluten"],
                 vegetarianFriendly: true,
                 veganFriendly: true
             },
 
             {
-                name: "Avo, Olives & Toms Sandwich",
+                name: "Avo, Olives & Toms Baugette",
                 ingredients: ["sesame", "gluten", "pineNuts"],
                 vegetarianFriendly: true,
                 veganFriendly: true
@@ -51,7 +51,7 @@
             },
 
             {
-                name: "Chicken Salad Baguette Sandwich",
+                name: "Chicken Salad Sandwich",
                 ingredients: ["gluten", "egg", "dairy"],
                 vegetarianFriendly: false,
                 veganFriendly: false
@@ -100,7 +100,7 @@
             },
 
             {
-                name: "Sticky Mushroom Bahn Mi Sandwich",
+                name: "Sticky Mushroom Bahn Mi Baugette",
                 ingredients: ["sesame", "gluten", "soya"],
                 vegetarianFriendly: true,
                 veganFriendly: true
@@ -114,7 +114,7 @@
             },
 
             {
-                name: "Tuna Nicoise Sandwich",
+                name: "Tuna PoleLine Caught & Cucumber Baugette",
                 ingredients: ["sesame", "gluten", "egg", "fish", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false
@@ -128,14 +128,14 @@
             },
 
             {
-                name: "BLT Baugette",
+                name: "BLT Sandwich",
                 ingredients: ["gluten", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false
             },
 
             {
-                name: "Chicken, Avocado & Basil Baugette",
+                name: "Chicken, Avocado & Basil Sandwich",
                 ingredients: ["gluten", "egg", "cow"],
                 vegetarianFriendly: false,
                 veganFriendly: false
@@ -149,21 +149,21 @@
             },
 
             {
-                name: "Classic Super Club Baugette",
+                name: "Classic Super Club Sandwich",
                 ingredients: ["gluten", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false
             },
 
             {
-                name: "Crayfish & Rocket Baugette",
+                name: "Crayfish & Rocket Sandwich",
                 ingredients: ["gluten", "crustacean", "egg"],
                 vegetarianFriendly: false,
                 veganFriendly: false
             },
 
             {
-                name: "Free-Range Egg Mayo Baugette",
+                name: "Free-Range Egg Mayo Sandwich",
                 ingredients: ["gluten", "egg", "mustard"],
                 vegetarianFriendly: true,
                 veganFriendly: false
@@ -177,7 +177,7 @@
             },
 
             {
-                name: "Humous & Veg Baugette",
+                name: "Humous & Veg Sandwich",
                 ingredients: ["sesame", "gluten"],
                 vegetarianFriendly: true,
                 veganFriendly: true
@@ -205,15 +205,15 @@
             },
 
             {
-                name: "Mature Cheddar & Pickle Baugette",
+                name: "Mature Cheddar & Pickle Sandwich",
                 ingredients: ["gluten", "egg", "cow"],
                 vegetarianFriendly: true,
                 veganFriendly: false
             },
 
             {
-                name: "Scottish Smoked Salmon Baugette",
-                ingredients: ["gluten", "fish", "cow"],
+                name: "Scandi Style Smoked Salmon Rye Roll",
+                ingredients: ["gluten", "fish", "cow", "egg", "mustard"],
                 vegetarianFriendly: false,
                 veganFriendly: false
             },
@@ -226,14 +226,7 @@
             },
 
             {
-                name: "Tuna Mayo & Cucumber Baugette",
-                ingredients: ["gluten", "egg", "fish"],
-                vegetarianFriendly: false,
-                veganFriendly: false
-            },
-
-            {
-                name: "The VLT Baugette",
+                name: "The VLT Sandwich",
                 ingredients: ["gluten"],
                 vegetarianFriendly: false,
                 veganFriendly: false
