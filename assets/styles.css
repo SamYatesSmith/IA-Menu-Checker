@@ -10,13 +10,11 @@
 
 body {
     background-color: #E9E9E9;
-    /* background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 /* Header Styling */
@@ -69,7 +67,7 @@ body {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* padding: 15px; */
 }
 
@@ -359,7 +357,8 @@ nav a:hover {
 }
 
 footer {
-    max-width: 90%;
+    width: 70%;
+    max-width: 1260px;
 }
 
 hr {
@@ -371,13 +370,15 @@ hr {
     width: 100%;
 }
 
-#siteMapContainer {
+/* #siteMapContainer {
     display: flex;
     width: 100%;
-}
+    flex-direction: column;
+} */
 
-nav {
+#siteMapNav {
     display: flex;
+    flex-direction: row;
     width: 100%
 }
 
@@ -386,12 +387,9 @@ nav {
     width: 40%;
 }
 
-#siteMap {
-    margin-right: 20%;
-}
-
 #siteMap ul,
 #socials ul {
+    flex-direction: column;
     list-style-type: none;
     padding: 0;
 }
@@ -399,13 +397,24 @@ nav {
 #siteMap ul li,
 #socials ul li {
     margin-bottom: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: 200;
+    color: #FF00F4;
 }
 
-
-#bottomLogo {
+#toTop img {
     width: 200px;
-    height: auto;
+    height: 200px;;
 }
+
+#toTop button {
+    border: 2px solid #E9E9E9;
+}
+
+/* #bottomLogo {
+
+} */
 
 @media screen and (min-width: 768px) {
 
@@ -413,7 +422,7 @@ nav {
     .section-container {
         justify-content: space-between;
         /* Distribute items evenly */
-        max-width: 768px;
+        /* max-width: 768px; */
         /* Limit the width for iPad screen */
         margin: 0 auto;
         /* Center the container */
