@@ -1,13 +1,11 @@
-
-
-    let userDiet;
+let userDiet;
 
     function checkChecker() {
     userDiet = document.querySelector('input[name="diet"]:checked');
     const userIntolerance = Array.from(document.querySelectorAll('input[name="intolerance"]:checked')).map(checkbox => checkbox.value);
     
     if(userIntolerance.includes("gluten")) {
-        displayError("Our apologies. As this is a sandwich and baguette menu, everything contains either wheat or barley, so there are no options available if you are intolerant to gluten. Further menu options to follow soon, we promise ;)")
+        displayError("Our apologies. As this is a sandwich and baguette menu, everything contains either wheat or barley, so there are no options available if you are intolerant to gluten. Further menu options to follow soon, we promise ;)");
         return;
     }
 
@@ -290,35 +288,20 @@
                 itemImage.classList.add("resultsContianer-img");
                 const itemName = document.createElement("span");
                 itemName.textContent = item.name;
-                itemName.classList.add("resultsContainer-span")
+                itemName.classList.add("resultsContainer-span");
 
                 listItem.appendChild(itemImage);
                 listItem.appendChild(itemName);
 
-                resultsContainer.appendChild(listItem)
+                resultsContainer.appendChild(listItem);
             });
         } else {
             resultsContainer.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>"
         }
     }
 
-        //     const userResults = document.getElementById("result");
-        //     if (userResults) {
-            
-        //         if (items.length > 0) {
-        //             userResults.innerHTML = "<h2>Your personalised menu based on suitability:</h2><ul>" +
-        //                 items.map(item => `<li><img src="${item.image}" alt="${item.name}">${item.name}</li>`).join("") +
-        //                 "</ul>";
-        //         } else {
-        //         userResults.innerHTML = "<p>I'm sorry, there are no suitable menu items on the menu based on your allergy and intolerance selection</p>";
-        //     } 
-        // } else {
-        //         console.error("Result div not found")
-        //     }
-        // }
-    
     function displayError(message) {
-        const userResults = document.getElementById("result");
+        const userResults = document.getElementById("resultsContainer");
         if (userResults) {
             userResults.innerHTML = `<p>${message}</p>`;
         } else {
