@@ -287,8 +287,10 @@
                 const itemImage = document.createElement("img");
                 itemImage.src = item.image;
                 itemImage.alt = item.name;
+                itemImage.classList.add("resultsContianer-img");
                 const itemName = document.createElement("span");
                 itemName.textContent = item.name;
+                itemName.classList.add("resultsContainer-span")
 
                 listItem.appendChild(itemImage);
                 listItem.appendChild(itemName);
