@@ -358,6 +358,55 @@ nav a:hover {
     margin-bottom: 12.5px;
 }
 
+footer {
+    max-width: 90%;
+}
+
+hr {
+    height: 50px;
+    width: 100%;
+}
+
+#getInTouch {
+    width: 100%;
+}
+
+#siteMapContainer {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 100%
+}
+
+#siteMap,
+#socials {
+    width: 40%;
+}
+
+#siteMap {
+    margin-right: 20%;
+}
+
+#siteMap ul,
+#socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#siteMap ul li,
+#socials ul li {
+    margin-bottom: 10px;
+}
+
+
+#bottomLogo {
+    width: 200px;
+    height: auto;
+}
+
 @media screen and (min-width: 768px) {
 
     /* Apply grid layout for iPad screen size */

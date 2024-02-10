@@ -322,3 +322,14 @@ let userDiet;
             }
         });
 })
+
+// scroll to top of page button = The EDIBLE Logo.
+
+const button = document.getElementById("toTop");
+
+button.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behaviour: "smooth"
+    });
+});
