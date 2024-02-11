@@ -325,7 +325,10 @@ let userDiet;
 
 // Downloads full sandwich and baugette menu into a seperate file within downloads folder
 
-
+function downloadPNG(event) {
+    event.preventDefault();
+    window.open('/assets/images/The-Menu.png', '_blank');
+}
 
 // scroll to top of page button = The EDIBLE Logo.
 
