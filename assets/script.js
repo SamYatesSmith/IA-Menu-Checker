@@ -323,6 +323,10 @@ let userDiet;
         });
 })
 
+// Downloads full sandwich and baugette menu into a seperate file within downloads folder
+
+
+
 // scroll to top of page button = The EDIBLE Logo.
 
 const button = document.getElementById("toTop");
