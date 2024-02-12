@@ -323,6 +323,15 @@ let userDiet;
         });
 })
 
+// ClearForm() function.  Clear user inputs for a blank form
+
+function clearForm() {
+    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(function(checkbox) {
+        checkbox.checked = false;
+    });
+}
+
 // Downloads full sandwich and baugette menu into a seperate file within downloads folder
 
 function downloadPNG(event) {
