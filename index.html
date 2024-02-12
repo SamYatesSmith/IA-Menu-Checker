@@ -260,19 +260,23 @@
         <br>
 
         <div id="results-buttons">
-
+            <div class="top-row">
             <button type="button" onclick="checkChecker()" style="cursor: pointer;">
                 Initiate Menu Dissection Device
             </button>
-
-            <button type="button" onclick="clearForm" style="cursor: pointer;">
-                Clear Responses
-            </button>
-
-            <button onclick="downloadPNG(event)" style="cursor: pointer;">
-                Download Menu
-            </button>
-
+            </div>
+              <div class="button-container">
+                <div class="bottom-row-container">
+                  <div class="bottom-row">
+                    <button type="button" onclick="clearForm()" style="cursor: pointer;">
+                        Clear Responses
+                    </button>
+                    <button onclick="downloadPNG(event)" style="cursor: pointer;">
+                        Download Menu
+                    </button>
+                </div>
+              </div>
+            </div>
         </div>
 
         </form>
