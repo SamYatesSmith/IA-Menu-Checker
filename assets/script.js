@@ -242,7 +242,7 @@
         ];
 
 // DOM elements
-const resultsContainer = getElementById("#resultsConstainer)");
+const resultsContainer = document.getElementById("resultsContainer");
 
 // Evenet listeners
 document.addEventListener('DOMContentLoaded', function() {
@@ -257,16 +257,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Functions 
 function checkChecker() {
-    const userDiet = document.querySelector('input[name="diet"]:checked');
+    const userDiets = document.querySelectorAll('input[name="diet"]:checked');
     const userIntolerance = Array.from(document.querySelectorAll('input[name="intolerance"]:checked')).map(checkbox => checkbox.value);
 
+    if (userDiets.length !== 1) {
+        displayError("Please select only one dietary preference, i.e., Omnivore, Vegetarian, or Vegan.")
+        return;
+    }
+    const userDiet = userDiets[0].value;
+    
     if (!userDiet || userIntolerance.length === 0) {
-        displayError("Please select your dietary preferences, i.e 0mnivore, vegetarian or Vegan");
+        displayError("Please select your dietary preferences, i.e Omnivore, vegetarian or Vegan");
+        return;
     }
     if (userIntolerance.includes ("gluten")) {
         displayError("Our apologies. As this is curently just a sandwich and baugette menu, all items contain wheat, barley or rye, and therefore gluten.  More items on the menu soon, we promise! ");
         return;
     }
+
+    displayUserSelections(userDiet, userIntolerance);
+    const suitableItems = getMenuItems(userDiet, userIntolerance)
+    displayResults(suitableItems);
+
+}
 
     function getMenuItems(diet, intolerance) {
         return menu.filter(item => {
@@ -277,6 +290,58 @@ function checkChecker() {
         });
     }
 
-    
+function displayResults(menu) {
+    resultsContainer.innerHTML = "";
 
-} 
+    if(menu.length > 0) {
+        menu.forEach(item => {
+            const listItem = document.createElement("li");
+            const itemImage = document.createElement("img");
+            itemImage.src = item.image;
+            itemImage.alt = item.name;
+            itemImage.classList.add("resultsContainer-img")
+            const itemName = document.createElement("span");
+            itemName.textContent = item.name;
+            itemName.classList.add("resultsContainer-span");
+
+            listItem.appendChild(itemImage);
+            listItem.appendChild(itemName);
+
+            resultsContainer.appendChild(listItem);
+        });
+    } else {
+        resultsContainer.innerHTML = "<p>No suitable menu items based on your checkbox selections</p>";
+    }
+}
+// Displaying user selections for clarity
+function displayUserSelections(diet, intolerance) {
+    const userSelectionsContainer = document.getElementById("userSelections");
+    const dietText = diet ? `Diet: ${diet}` : '';
+    const intoleranceText = intolerance.length > 0 ? `Intolerances: ${intolerance.join(', ')}` : '';
+
+    userSelectionsContainer.innerHTML = 
+    `<p><strong>Here are your selections:</strong></p>
+     <p>${dietText}</p>
+     <p>${intoleranceText}</p>`;
+}
+
+// Error message
+function displayError(message) {
+    resultsContainer.innerHTML = `<p>${message}</p>`;
+}
+// Scroll page to Top
+function scrollToTop() {
+    window.scrollTo({top: 0, behaviour: "smooth"});
+}
+// Clear user inputs from form
+function clearForm() {
+    document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => checkbox.checked = false);
+    displayUserSelections('', []);
+    displayResults([]);
+}
+// download full sandwich and baugette menu and ensure menu opens in new page.
+function downloadPNG(event) {
+    event.preventDefault();
+    window.open('/assets/images/The-Menu.png','_blank');
+}
+ 
