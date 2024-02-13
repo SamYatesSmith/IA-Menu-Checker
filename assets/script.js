@@ -241,3 +241,42 @@
             },
         ];
 
+// DOM elements
+const resultsContainer = getElementById("#resultsConstainer)");
+
+// Evenet listeners
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('button').addEventListener('click', checkChecker);
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            checkChecker();
+        }
+    });
+    document.getElementById("toTop").addEventListener("click", scrollToTop);
+});
+
+// Functions 
+function checkChecker() {
+    const userDiet = document.querySelector('input[name="diet"]:checked');
+    const userIntolerance = Array.from(document.querySelectorAll('input[name="intolerance"]:checked')).map(checkbox => checkbox.value);
+
+    if (!userDiet || userIntolerance.length === 0) {
+        displayError("Please select your dietary preferences, i.e 0mnivore, vegetarian or Vegan");
+    }
+    if (userIntolerance.includes ("gluten")) {
+        displayError("Our apologies. As this is curently just a sandwich and baugette menu, all items contain wheat, barley or rye, and therefore gluten.  More items on the menu soon, we promise! ");
+        return;
+    }
+
+    function getMenuItems(diet, intolerance) {
+        return menu.filter(item => {
+            const isVegetarianFriendly = diet === "vegetarian" ? item.vegetarianFriendly: true;
+            const isVeganFriendly = diet === "vegan" ? item.veganFriendly : true;
+            const containsIntolerance = item.ingredients.some(ingredient => intolerance.includes(ingredient));
+            return !containsIntolerance && isVeganFriendly && isVegetarianFriendly;
+        });
+    }
+
+    
+
+} 
