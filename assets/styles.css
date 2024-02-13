@@ -19,12 +19,12 @@ body {
 /* Header Styling */
 
 #edible_logo {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 #header-container img {
-    max-height: 80px;
+    max-height: 150px;
 }
 
 #header-container {
@@ -103,9 +103,7 @@ nav a:hover {
     justify-content: center;
 }
 .flip-container {
-    perspective: 1000;
     margin: 5px;
-    width: clac(50%-20px);
 }
 
 .flip-container:hover .flipper,
@@ -148,9 +146,6 @@ nav a:hover {
 }
 
 .back {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
     background: url(/assets/images/infobox_images5.jpg) 0 0 no-repeat;
     background-size: cover;
@@ -173,9 +168,6 @@ nav a:hover {
     left: 25%;
     position: absolute;
     text-shadow: 0.1em 0.1em 0.05em #333;
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
 
