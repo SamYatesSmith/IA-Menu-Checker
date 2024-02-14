@@ -20,67 +20,37 @@ The user would start by listing what their dietary preference is, for example wh
 
  ### Flip infomation boxes with detail enclosed
  - The "flip boxes" are initiated upon hover.  The reverse answer the question on the front in order to provide the user reletive information in a space concious manner whilst adding to the general appeal of the site.  Again, the genreal aesthetic is in-keeping with the sites appeal.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/2.Screenshot.flip-front.png"><img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/3.Screenshot.flipped.back.png">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/2.Screenshot.flip-front.png"><img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/3.Screenshot.flipped.back.png">
 <br>
 
  ### The Checker
  - The checker is the primary purpose of the site.  The user checks the relevant available checkboxes and pushes the larger of the three button underneath the checker and this will return images and a description of the sandwiches available on the menu, that the user can safely consume.  
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/4.TheChecker.png">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/4.TheChecker.png">
 <br>
 
  ### Clear Responses button
  - The clear responses button clears previous user inputs, selection criteria and results, ready for further input.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/5.ClearResponses.png"
-     alt="Clear responses button"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/5.ClearResponses.png">
 <br>
 
  ### Show menu button
  - The show menu button will open a new page in the same window with the full sandwhich and baugette menu.  This menu is an older version of a portion of the menu Pret A Manger offered and is used as an example of what the software could achieve.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/6.ShowMenu.png"
-     alt="Show Menu button"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/6.ShowMenu.png">
 <br>
 
  ### Scripted error checking
  - The functionality behind the sfotware will alert the user of any errors they may have activated when checking (or not checking) the checkboxes.  This error returns in the same area that they would recieve their sandwhich results. 
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/7.displayError.png"
-     alt="Display Error fucntion code"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/7.displayError.png">
 <br>
 
  ### Selection information, confirming users checked items for clarity
  - This simply returns the users selection information so that the user may check what they have inputted.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/8.SelectionClarity.png"
-     alt="User selection print-out example"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/8.SelectionClarity.png">
 <br>
 
  ### Navigable footer linking to external socials
  - When clicking the site map links, these refer the user to the desired location of the page for instant navigable access.  The social media links, is avilable at source, will guide the user to the respective social media page logins, opening within a new tab in the same window.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/9.NavigableFooter.png"
-     alt="Site footer"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/9.NavigableFooter.png">
 <br>
 
  ### User friendly aides (color contrasts and alt image messages)
@@ -106,23 +76,12 @@ The site has taken over 3 weeks to build.  Approximately 100 hours at a guess.  
 
 - HTML Validation
 
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/HTML.Validation.Pass.png"
-     alt="Site footer"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/HTML.Validation.Pass.png">
 
 - CSS Validation 
 
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/CSS.Validation.Pass.png"
-     alt="Site footer"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/CSS.Validation.Pass.png"
+
 
 ## Unfixed Bugs
 
