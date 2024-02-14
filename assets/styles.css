@@ -18,13 +18,8 @@ body {
 
 /* Header Styling */
 
-#edible_logo {
-    height: 3rem;
-    width: 3rem;
-}
-
 #header-container img {
-    max-height: 150px;
+    max-height: 200px;
 }
 
 #header-container {
@@ -387,7 +382,6 @@ nav a:hover {
     font-size: 18px;
     color: #474554;
     margin-top: 40px;
-    font-weight:300px
 }
 
 #resultsHeading {
@@ -456,6 +450,11 @@ hr {
     align-items: flex-start;
 }
 
+#siteMap,
+#socials {
+    width: 120px;
+}
+
 #siteMap ul,
 #socials ul {
 
@@ -494,22 +493,17 @@ hr {
 #socials span {
     font-weight: 300;
 }
+
 /* Media queries */
 
 @media screen and (min-width: 768px) {
 
-    /* Apply grid layout for iPad screen size */
     .section-container {
         justify-content: space-between;
-        /* Distribute items evenly */
-        /* max-width: 768px; */
-        /* Limit the width for iPad screen */
         margin: 0 auto;
-        /* Center the container */
     }
 
     .flip-container {
         width: calc(50% - 20px);
-        /* Two items per row with spacing */
     }
 }
