@@ -15,7 +15,7 @@ The user would start by listing what their dietary preference is, for example wh
  ### Intuitive navbar 
  - The navbars links guide the user to the requested section of the page.  Its design is in-keeping with the style employed throughout the site.  Upon hover, the links transition into a different style and after hover, the transition takes a short time to fade.  
  The logo is of the producer of the software itself, EDIBLE. 
- <img src="![/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/1.Screenshot.header.png](https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/1.Screenshot.header.png)">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/1.Screenshot.header.png">
 <br>
 
  ### Flip infomation boxes with detail enclosed
