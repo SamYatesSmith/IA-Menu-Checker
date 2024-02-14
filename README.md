@@ -20,20 +20,7 @@ The user would start by listing what their dietary preference is, for example wh
 
  ### Flip infomation boxes with detail enclosed
  - The "flip boxes" are initiated upon hover.  The reverse answer the question on the front in order to provide the user reletive information in a space concious manner whilst adding to the general appeal of the site.  Again, the genreal aesthetic is in-keeping with the sites appeal.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/2.Screenshot.flip-front.png"
-     alt="Screenshot of unflipped front button"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
-  <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/3.Screenshot.flipped.back.png"
-     alt="Screenshot of flipped back"
-     style="display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;
-            ">
+ <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/2.Screenshot.flip-front.png"><img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/3.Screenshot.flipped.back.png">
 <br>
 
  ### The Checker
