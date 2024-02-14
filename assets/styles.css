@@ -337,7 +337,6 @@ nav a:hover {
     color:#E9E9E9;
     box-shadow: 1px 1px 2px 0px #FF00F4;
     border-radius: 8px;
-    
 }
 
 .bottom-row {
@@ -369,7 +368,6 @@ nav a:hover {
 
 #resultsContainer {
     display: flex;
-    /* align-items: flex-start; */
     flex-direction: column;
     margin-bottom: 10px;
     margin: 10px;

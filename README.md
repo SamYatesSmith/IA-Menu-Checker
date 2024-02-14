@@ -13,12 +13,13 @@ The user would start by listing what their dietary preference is, for example wh
 ## Features
 
  - Intuitive navbar
+ 
  - flip infomation boxes with detail enclosed
  - The Checker- user based input for "safe to eat" resposnes
  - Clear Responses button
  - Show menu button
  - Scripted error checking
- - Selection informaiton, confirming users checked items for clarity
+ - Selection information, confirming users checked items for clarity
  - Navigable footer linking to external socials
- - User friendly aides
+ - User friendly aides (color contrasts and alt image messages)
  - Devlopable & maleable code - can be easily expanded to suit larger, or secondary menus
