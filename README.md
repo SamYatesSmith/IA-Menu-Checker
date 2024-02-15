@@ -20,7 +20,7 @@ The user would start by listing what their dietary preference is, for example wh
 
  ### Burger Menu for smaller screen sizes 
  - Originally, this became a necessity when I was unable to sufficently address an issue with the vertical screen alignment when viewing the site on smaller screens.  Upon click, the navbar becomes evident for quick and easy site perusal.
- <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/10.BurgerMenu.png">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/10.BurgerMenu.png">
 
  ### Flip infomation boxes with detail enclosed
  - The "flip boxes" are initiated upon hover.  The reverse hides the answer to the question on the front in order to provide the user relative information in a space conscious manner whilst adding to the general appeal of the site.  Again, the general aesthetic is in-keeping with the sites appeal.
