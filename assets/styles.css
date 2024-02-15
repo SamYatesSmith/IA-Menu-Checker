@@ -576,6 +576,10 @@ hr {
         font-size: 16px
     }
 
+    .nav-links li a:hover {
+        color: #E9E9E9;
+    }
+
     #siteMapNav {
         display: flex;
         flex-direction: row;
