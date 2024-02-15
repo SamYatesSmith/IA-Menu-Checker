@@ -10,7 +10,7 @@ The Checker is a functional menu analyser.  The primary goal of the Checker is t
 
 The user would start by listing what their dietary preference is, for example whether they're a vegetarian, a vegan or they're happy to eat anything.  This is in the form of a checkbox.  Following this input, a secondary checkbox input is required; any allergies or intolerances to certain ingredients.  The Checker, once initiated, would then return everything that is safe to eat on the menu, alleviating any of the users concerns about ingesting food which could be harmful to them. 
 
-## Technolgies used
+## Technologies used
 
 HTML: Markup language for structuring the web pages.
 CSS: Stylesheet language for styling the website.
@@ -80,6 +80,9 @@ Scroll to Top: Click on the "To Top" button to scroll back to the top of the pag
  ### Features left to implement? 
  - If the core data is available, I would like to offer restaurants the opportunity to sign up with me and provide a QR code with their menu and ingredients (Or I oculd build it for them) and I could then provide the service as a result of a QR scan. 
 
+# Wireframe and UI ideas
+ <img src="">
+
 # Deployment
  - The Checker site was deployed in stages to GitHub.  Over 60 commits register each stage of the deployment to the repository IA-Menu-checker.  IA in this instance stands for Intolernces and Allergies.
  - The site has been deployed to github pages for perusal with no issues. 
@@ -121,15 +124,14 @@ Styling Sources
 - https://codepen.io/gifteconomist/pen/redRyd?editors=1100 - guidance on flip checkboxes
 
 - https://www.joshwcomeau.com/css/designing-shadows/ - Box shadow hints and tips
-- https://mycolor.space/?hex=%23E9E9E9&sub=1 - Colour pallette
 - https://developer.mozilla.org/en-US/docs/Web/CSS/calc - Calc() funciton
 - https://myfreelogomaker.com/onboarding - logo creation
-- Colour palette 
+- Colour palette = https://mycolor.space/?hex=%23E9E9E9&sub=1
 <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/dust.palette.png">
 
 ## Unfixed Bugs
 
- I do not believe there are any unfixed bugs
+ No issues
 
 ## Feedback
 
