@@ -80,7 +80,7 @@ The site has taken over 3 weeks to build.  Approximately 100 hours at a guess.  
 
 - CSS Validation 
 
- <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/CSS.Validation.Pass.png"
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/CSS.Validation.Pass.png">
 
 
 ## Unfixed Bugs

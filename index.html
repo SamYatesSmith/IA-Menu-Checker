@@ -24,10 +24,15 @@
             <div class="header-top"></div>
             <img src="/assets/images/Edible_padded_logo.png" alt="EDIBLE logo" class="edible_logo">
             <h1>The Checker by <span>Edible</span></h1>
-            <p>Check the menu to see what you can, or can't eat</p>
+            <p>Food intolerances or allergies? Just use the Checker</p>
         <div class="header-bottom">
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <div class="burger-menu" onclick="burgermenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-links">
                     <li><a href="#header-container">Home</a></li>
                     <li><a href="#section-container">Information</a></li>
                     <li><a href="#checkerContainer">Checker</a></li>
@@ -305,9 +310,7 @@
                     <li><a href="#getInTouch">Contact</a></li>
                 </ul>
             </div> 
-            <div id="bottomLogo">
-                <button id="toTop"><img src="/assets/images/Edible_padded_logo.png" alt="EDIBLE logo"></button>
-            </div>
+
             <div id="socials">
                 <span>Socials</span>
                 <ul>
@@ -318,7 +321,9 @@
             </div>
         </nav>
     </div>
-
+    <div id="bottomLogo">
+        <button id="toTop"><img src="/assets/images/Edible_padded_logo.png" alt="EDIBLE logo"></button>
+    </div>
     <div>
         <p>&amp; EDIBLE2024</p>
     </div>
