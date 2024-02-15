@@ -351,5 +351,5 @@ function clearForm() {
 // show full sandwich and baugette menu and ensure menu opens in new page.
 function downloadPNG(event) {
     event.preventDefault();
-    window.open('../images/TheMenu.png','_blank');
+    window.open('../../assets/images/TheMenu.png','_blank');
 }

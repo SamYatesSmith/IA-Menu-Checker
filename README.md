@@ -85,7 +85,7 @@ Scroll to Top: Click on the "To Top" button to scroll back to the top of the pag
 
 # Deployment
  - The Checker site was deployed in stages to GitHub.  Over 60 commits register each stage of the deployment to the repository IA-Menu-checker.  IA in this instance stands for Intolernces and Allergies.
- - The site has been deployed to github pages for perusal with no issues. 
+ - The site has been deployed to gitHub pages.  There were various issues with my file paths being incorrect.  Following consultation, i managed to ectify and resovlve.
 
 # Testing 
 
