@@ -50,7 +50,7 @@ The user would start by listing what their dietary preference is, for example wh
 
  ### Navigable footer linking to external socials
  - When clicking the site map links, these refer the user to the desired location of the page for instant navigable access.  The social media links, is avilable at source, will guide the user to the respective social media page logins, opening within a new tab in the same window.
- <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/9.NavigableFooter.png">
+ <img src="/workspace/IA-Menu-Checker/assets/images/libraries/readmescreenshots/9.NavigableFooter.png">
 <br>
 
  ### User friendly aides (color contrasts and alt image messages)

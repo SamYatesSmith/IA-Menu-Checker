@@ -488,6 +488,7 @@ hr {
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #siteMap,
