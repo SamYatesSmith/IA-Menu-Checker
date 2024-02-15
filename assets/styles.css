@@ -183,7 +183,7 @@ nav a:hover {
 
 .back {
     transform: rotateY(180deg);
-    background: url(/assets/images/infobox_images5.jpg) 0 0 no-repeat;
+    background: url(assets/images/infobox_images5.jpg) 0 0 no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -260,7 +260,7 @@ nav a:hover {
 #checkerContainer {
     border-radius: 8px;
     padding: 20px;
-    background-image: url(/assets/images/background-image3.jpg);
+    background-image: url(assets/images/background-image3.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
