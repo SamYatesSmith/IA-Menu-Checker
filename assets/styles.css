@@ -28,7 +28,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;
     border-bottom: solid 1px #FF00F4;
