@@ -125,7 +125,7 @@ Styling Sources
 - https://developer.mozilla.org/en-US/docs/Web/CSS/calc - Calc() funciton
 - https://myfreelogomaker.com/onboarding - logo creation
 - Colour palette 
-<img src="">
+<img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/dust.palette.png">
 
 ## Unfixed Bugs
 
