@@ -10,6 +10,22 @@ The Checker is a functional menu analyser.  The primary goal of the Checker is t
 
 The user would start by listing what their dietary preference is, for example whether they're a vegetarian, a vegan or they're happy to eat anything.  This is in the form of a checkbox.  Following this input, a secondary checkbox input is required; any allergies or intolerances to certain ingredients.  The Checker, once initiated, would then return everything that is safe to eat on the menu, alleviating any of the users concerns about ingesting food which could be harmful to them. 
 
+## Technolgies used
+
+HTML: Markup language for structuring the web pages.
+CSS: Stylesheet language for styling the website.
+JavaScript: Programming language for implementing interactive features and dynamic content.
+Responsive Design: Media queries are used to ensure the website is responsive and works well on different devices and viewport sizes.
+
+## How to use the site? 
+
+Peruse information available to assess what the site is and whom it oculd be used by.
+Select Dietary Preferences within "The Checker": Choose from omnivore, vegetarian, or vegan options.
+Select Food Intolerances: Check any food intolerances you have, such as egg or dairy.
+View Results: The website will display menu items that match your selections.
+Clear Responses to use the Checker as much as you like.
+Scroll to Top: Click on the "To Top" button to scroll back to the top of the page.
+
 ## Features
 
  ### Intuitive navbar 
@@ -58,11 +74,15 @@ The user would start by listing what their dietary preference is, for example wh
 <br>
 
  ### User friendly aides (color contrasts and alt image messages)
- ### Devlopable & maleable code 
+ ### Developable & maleable code 
  - If required, the code is easily maleable to input secondary or larger menus.
 
  ### Features left to implement? 
  - If the core data is available, I would like to offer restaurants the opportunity to sign up with me and provide a QR code with their menu and ingredients (Or I oculd build it for them) and I could then provide the service as a result of a QR scan. 
+
+# Deployment
+ - The Checker site was deployed in stages to GitHub.  Over 60 commits register each stage of the deployment to the repository IA-Menu-checker.  IA in this instance stands for Intolernces and Allergies.
+ - The site has been deployed to github pages for perusal with no issues. 
 
 # Testing 
 
@@ -86,7 +106,36 @@ The site has taken over 3 weeks to build.  Approximately 100 hours at a guess.  
 
  <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/CSS.Validation.Pass.png">
 
+## Website sources
+
+Javascript Sources
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some = ".some" method for arrays - guidance and insight into how .some works
+- https://www.w3schools.com/jsref/jsref_some.asp = further guidance for .some method
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes = .includes() method - guidance
+- https://sentry.io/answers/how-do-i-check-if-an-array-includes-a-value-in-javascript/ = guidance for .includes() method
+
+Styling Sources
+- https://www.brainyquote.com/topics/uncertainty-quotes - well known quotes to make error messages interesting
+
+- https://codepen.io/darkwing/pen/DrNEzy?editors=1100 - inspiration and guidance on how to flip element 180deg to give impression - that information is on the reverse.
+- https://codepen.io/gifteconomist/pen/redRyd?editors=1100 - guidance on flip checkboxes
+
+- https://www.joshwcomeau.com/css/designing-shadows/ - Box shadow hints and tips
+- https://mycolor.space/?hex=%23E9E9E9&sub=1 - Colour pallette
+- https://developer.mozilla.org/en-US/docs/Web/CSS/calc - Calc() funciton
+- https://myfreelogomaker.com/onboarding - logo creation
+- Colour palette 
+<img src="">
 
 ## Unfixed Bugs
 
- - I do not believe there are any unfixed bugs
+ I do not believe there are any unfixed bugs
+
+## Feedback
+
+Please forward any feedback to the email address provided within the contact us, or get in touch tabs: samyatessmith@gmail.com
+
+## Credits
+
+This project was created by Sam Yates-Smith
+ 
