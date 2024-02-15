@@ -81,7 +81,7 @@ Scroll to Top: Click on the "To Top" button to scroll back to the top of the pag
  - If the core data is available, I would like to offer restaurants the opportunity to sign up with me and provide a QR code with their menu and ingredients (Or I oculd build it for them) and I could then provide the service as a result of a QR scan. 
 
 # Wireframe and UI ideas
- <img src="">
+ <img src="https://github.com/SamYatesSmith/IA-Menu-Checker/blob/main/assets/images/libraries/readmescreenshots/Wireframe.Design-ideas.png">
 
 # Deployment
  - The Checker site was deployed in stages to GitHub.  Over 60 commits register each stage of the deployment to the repository IA-Menu-checker.  IA in this instance stands for Intolernces and Allergies.
