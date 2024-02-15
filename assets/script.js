@@ -348,8 +348,8 @@ function clearForm() {
     displayUserSelections('', []);
     resultsContainer.innerHTML = "";
 }
-// show full sandwich and baugette menu and ensure menu opens in new page.
-function downloadPNG(event) {
-    event.preventDefault();
-    window.open('../assets/images/TheMenu.png','_blank');
-}
+// // show full sandwich and baugette menu and ensure menu opens in new page.
+// function downloadPNG(event) {
+//     event.preventDefault();
+//     window.open('../assets/images/TheMenu.png','_blank');
+// }

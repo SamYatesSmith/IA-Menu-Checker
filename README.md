@@ -85,7 +85,8 @@ Scroll to Top: Click on the "To Top" button to scroll back to the top of the pag
 
 # Deployment
  - The Checker site was deployed in stages to GitHub.  Over 60 commits register each stage of the deployment to the repository IA-Menu-checker.  IA in this instance stands for Intolernces and Allergies.
- - The site has been deployed to gitHub pages.  There were various issues with my file paths being incorrect.  Following consultation, i managed to rectify and resovlve.
+ - The site has been deployed to gitHub pages.  There were various issues with my file paths being incorrect.  Following consultation, i managed to rectify and resovlve.  This was achieved by hard coding the button in HTML, rather than loading the script from JavaScript.  According to counsel, gitPages does not perform very well when loading images from JS. 
+ Site deployed successfully
 
 # Testing 
 
